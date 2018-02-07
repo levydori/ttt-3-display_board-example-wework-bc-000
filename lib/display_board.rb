@@ -4,7 +4,7 @@ def display_board
   cell = "   "
   delimiter = "|"
   line_delim = "-----------"
-  3.times { print cell + delimiter + \n}
+  3.times { print cell + delimiter + ""\n"}
 end
 
 display_board
