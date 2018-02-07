@@ -5,14 +5,15 @@ def display_board
   puts cells.join("|")
   11.times {
     print "-"
-    puts ""
   }
+  puts ""
   puts cells.join("|")
   11.times {
     print "-"
-    puts ""
   }
+  puts ""
   puts cells.join("|")
+  
 end
 
 display_board
