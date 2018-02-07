@@ -4,7 +4,11 @@ def display_board
   cell = "   "
   delimiter = "|"
   line_delim = "-----------"
-  3.times { print cell + delimiter + ""\n"}
+  3.times { print cell + delimiter}
+  print "\n" + line_delim + "\n"
+  3.times { print cell + delimiter}
+  print "\n" + line_delim + "\n"
+  3.times { print cell + delimiter}
 end
 
 display_board
