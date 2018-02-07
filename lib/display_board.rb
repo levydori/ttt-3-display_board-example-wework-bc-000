@@ -9,6 +9,7 @@ def display_board
   3.times { print cell + delimiter}
   print "\n" + line_delim + "\n"
   3.times { print cell + delimiter}
+  print "\n"
 end
 
 display_board
