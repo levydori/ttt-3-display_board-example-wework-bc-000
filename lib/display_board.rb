@@ -3,5 +3,6 @@
 def display_board
   cell = "   "
   delimiter = "|"
-  line_delim
+  line_delim = "-----------"
+  3.times print cell + delimiter
 end
