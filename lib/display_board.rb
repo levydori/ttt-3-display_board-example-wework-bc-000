@@ -3,6 +3,16 @@
 def display_board
   cells = ["   ", "   ", "   "]
   puts cells.join("|")
+  11.times {
+    print "-"
+    puts ""
+  }
+  puts cells.join("|")
+  11.times {
+    print "-"
+    puts ""
+  }
+  puts cells.join("|")
 end
 
 display_board
